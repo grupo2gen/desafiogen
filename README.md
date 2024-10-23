@@ -88,6 +88,16 @@ Para usar **desafiogen**, siga estas etapas:
 
 - A API possui endpoints que permitem o gerenciamento de recursos, como `GET`, `POST`, `PUT`, e `DELETE`. Para testar, você pode usar o Swagger UI ou ferramentas como o Postman ou cURL.
 
+  ## 🚀 Deploy
+
+O projeto está atualmente em deploy e pode ser acessado clicando no link abaixo:
+
+<p align="center">
+  <a href="https://desafiogen-1.onrender.com/" target="_blank">
+    <img src="https://img.shields.io/static/v1?label=Deploy&message=Acessar&color=blue&style=for-the-badge&logo=render" alt="Link para o Deploy">
+  </a>
+</p>
+
 
 ## 🤝 Autores
 
