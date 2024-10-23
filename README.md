@@ -1,11 +1,5 @@
 # Desafio Web DEV SC
 
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count]([https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge])
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
-
-
 > Projeto criado para a atividade de desenvolvimento web na Generation. 
 
 ## 💻 Pré-requisitos
@@ -20,7 +14,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 - Você leu a [documentação oficial do FastAPI](https://fastapi.tiangolo.com/).
 
 
-## 🚀 Instalando <desafiogen>
+## 🚀 Instalando **desafiogen**
 
 Para instalar o <desafiogen>, siga estas etapas:
 
@@ -84,9 +78,9 @@ Windows:
    ```
 
 
-## ☕ Usando <desafiogen>
+## ☕ Usando **desafiogen**
 
-Para usar <desafiogen>, siga estas etapas:
+Para usar **desafiogen**, siga estas etapas:
 
 - Depois de instalar o projeto, você pode acessá-lo no navegador. A aplicação estará rodando em `http://localhost:8000`.
 
@@ -100,23 +94,23 @@ Para usar <desafiogen>, siga estas etapas:
 <table>
   <tr>
     <td align="center">
-      <a href="#" title="defina o título do link">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto da Ana Júlia no Github"/><br>
+      <a href="https://github.com/najulia" title="GitHub da Ana Júlia">
+        <img src="https://avatars.githubusercontent.com/u/62626492?v=4" width="100px;" alt="Foto da Ana Júlia no Github"/><br>
         <sub>
           <b>Ana Júlia</b>
         </sub>
       </a>
     </td>
     <td align="center">
-      <a href="#" title="defina o título do link">
-        <img src="https://avatars.githubusercontent.com/u/104029186?s=400&u=05fcb06284a22d8c2a3abacd29a45ebdf45d3f18&v=4" width="100px;" alt="Foto da Enny no Github"/><br>
+      <a href="https://github.com/ennymoraes" title="GitHub da Enny Moraes">
+        <img src="https://avatars.githubusercontent.com/u/104029186?s=400&u=05fcb06284a22d8c2a3abacd29a45ebdf45d3f18&v=4" width="100px;" alt="Foto da Enny Moraes no Github"/><br>
         <sub>
           <b>Enny Moraes</b>
         </sub>
       </a>
     </td>
     <td align="center">
-      <a href="#" title="defina o título do link">
+      <a href="https://github.com/fer-morais" title="GitHub da Fernanda Morais">
         <img src="https://avatars.githubusercontent.com/u/179770439?v=4" width="100px;" alt="Foto da Fernanda Morais no Github"/><br>
         <sub>
           <b>Fernanda Morais</b>
