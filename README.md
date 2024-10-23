@@ -9,7 +9,7 @@
 <img src="imagem.png" alt="Exemplo imagem">
 
 > Projeto criado para a atividade de desenvolvimento web na Generation. 
-
+çççççççççç
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
