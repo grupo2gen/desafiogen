@@ -14,9 +14,13 @@
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-- Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
-- Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
-- Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
+- Você instalou a versão mais recente do [Python 3.9+](https://www.python.org/downloads/).
+- Você tem uma máquina rodando um dos seguintes sistemas operacionais:
+  - Windows 10/11
+  - Linux (Testado em Ubuntu 20.04+)
+  - macOS 11+
+- Você leu a [documentação oficial do FastAPI](https://fastapi.tiangolo.com/).
+
 
 ## 🚀 Instalando <nome_do_projeto>
 
@@ -24,23 +28,74 @@ Para instalar o <nome_do_projeto>, siga estas etapas:
 
 Linux e macOS:
 
-```
-<comando_de_instalação>
-```
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/usuario/repositorio.git
+   ```
+
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd repositorio
+   ```
+
+3. Crie um ambiente virtual (opcional, mas recomendado):
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+4. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. Inicie a aplicação:
+   ```bash
+   uvicorn main:app --reload
+   ```
+
 
 Windows:
 
-```
-<comando_de_instalação>
-```
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/usuario/repositorio.git
+   ```
+
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd repositorio
+   ```
+
+3. Crie um ambiente virtual (opcional, mas recomendado):
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+   ```
+
+4. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. Inicie a aplicação:
+   ```bash
+   uvicorn main:app --reload
+   ```
+
 
 ## ☕ Usando <nome_do_projeto>
 
 Para usar <nome_do_projeto>, siga estas etapas:
 
-```
-<exemplo_de_uso>
-```
+- Depois de instalar o projeto, você pode acessá-lo no navegador. A aplicação estará rodando em `http://localhost:8000`.
+
+- Você também pode acessar a documentação interativa da API (Swagger UI) em `http://localhost:8000/docs`.
+
+- A API possui endpoints que permitem o gerenciamento de recursos, como `GET`, `POST`, `PUT`, e `DELETE`. Para testar, você pode usar o Swagger UI ou ferramentas como o Postman ou cURL.
+
 
 ## 🤝 Autores
 
@@ -50,7 +105,7 @@ Para usar <nome_do_projeto>, siga estas etapas:
       <a href="#" title="defina o título do link">
         <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Ana Júlia</b>
         </sub>
       </a>
     </td>
@@ -58,7 +113,7 @@ Para usar <nome_do_projeto>, siga estas etapas:
       <a href="#" title="defina o título do link">
         <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
         <sub>
-          <b>Mark Zuckerberg</b>
+          <b>Enny Moraes</b>
         </sub>
       </a>
     </td>
@@ -66,7 +121,7 @@ Para usar <nome_do_projeto>, siga estas etapas:
       <a href="#" title="defina o título do link">
         <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
         <sub>
-          <b>Steve Jobs</b>
+          <b>Fernanda Morais</b>
         </sub>
       </a>
     </td>
