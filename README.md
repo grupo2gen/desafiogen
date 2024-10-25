@@ -1,4 +1,4 @@
-# Desafio Web DEV SC
+# ClassControll
 
 > Projeto criado para a atividade de desenvolvimento web na Generation. 
 
@@ -14,7 +14,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 - Você leu a [documentação oficial do FastAPI](https://fastapi.tiangolo.com/).
 
 
-## 🚀 Instalando **desafiogen**
+## 🚀 Instalando **ClassControll**
 
 Para instalar o <desafiogen>, siga estas etapas:
 
@@ -78,7 +78,7 @@ Windows:
    ```
 
 
-## ☕ Usando **desafiogen**
+## ☕ Usando **ClassControll**
 
 Para usar **desafiogen**, siga estas etapas:
 
