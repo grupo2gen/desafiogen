@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, Float, ForeignKey
 from sqlalchemy.orm import relationship
-from backend.banco import Base
+from backend.controller.banco import Base
 
 class Aluno(Base):
     __tablename__ = "alunos"

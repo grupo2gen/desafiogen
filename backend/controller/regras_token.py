@@ -3,9 +3,11 @@ from datetime import datetime, timedelta
 from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 from sqlalchemy.orm import Session
-from backend import banco, crud, estrutura
+from backend.crud import crud_funcionario
 from passlib.context import CryptContext
 import os
+
+from backend.controller import banco, estrutura
 
 SECRET_KEY = os.getenv("SECRET_KEY", "your_secret_key")  
 ALGORITHM = "HS256"  
@@ -49,7 +51,7 @@ async def get_current_user(token: str = Depends(oauth2_scheme), db: Session = De
         raise credentials_exception
 
 
-    user = crud.get_funcionario_by_email(db, email=email)
+    user = crud_funcionario.get_funcionario_by_email(db, email=email)
     if user is None:
         raise credentials_exception
     return user

@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-from backend.entidades import aluno, funcionario, turma
-from backend.banco import engine
-from backend.tabelas import Base
+from backend.enderecos import aluno, funcionario, turma
+from backend.controller.banco import engine
+from backend.controller.tabelas import Base
 
 Base.metadata.create_all(bind=engine)
 
