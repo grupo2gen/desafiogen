@@ -2,3 +2,6 @@ venv/
 .env
 procfile
 dockerfile
+
+__pycache__/
+*.py[cod]
